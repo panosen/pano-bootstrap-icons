@@ -14,7 +14,8 @@
       "plugins": [ "cleanupAttrs" ]
     },
     "modelFileName": "bootstrap-icons",
-    "compileSources": true
+    "compileSources": true,
+    "iconsFolderName":"icons"
   },
   "license": "MIT",
   "devDependencies": {
