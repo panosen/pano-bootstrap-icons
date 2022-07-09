@@ -1,0 +1,24 @@
+{
+  "name": "pano-bootstrap-icons",
+  "version": "0.0.1",
+  "scripts": {
+    "generate-icons": "svg-to-ts-files"
+  },
+  "svg-to-ts": {
+    "srcFiles": [ "./node_modules/bootstrap-icons/icons/*.svg" ],
+    "outputDirectory": "./dist",
+    "interfaceName": "BootstrapIcon",
+    "typeName": "BootstrapIconName",
+    "prefix": "bootstrap",
+    "svgoConfig": {
+      "plugins": [ "cleanupAttrs" ]
+    },
+    "modelFileName": "bootstrap-icons",
+    "compileSources": true
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap-icons": "^1.8.3",
+    "svg-to-ts": "^8.8.1"
+  }
+}
