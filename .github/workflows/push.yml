@@ -29,5 +29,4 @@ jobs:
       with:
         token: ${{ secrets.NPM_TOKEN }}
         package: ./bootstrap-icons/package.json
-        dry-run: true
 
