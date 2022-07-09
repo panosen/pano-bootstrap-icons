@@ -6,7 +6,7 @@
   },
   "svg-to-ts": {
     "srcFiles": [ "./node_modules/bootstrap-icons/icons/*.svg" ],
-    "outputDirectory": "./bootsrap-icons",
+    "outputDirectory": "./bootstrap-icons",
     "interfaceName": "BootstrapIcon",
     "typeName": "BootstrapIconName",
     "prefix": "bootstrap",
