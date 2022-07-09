@@ -1,5 +1,5 @@
 node_modules/
 .vs/
-dist/
-
-
+bootsrap-icons/build/
+bootsrap-icons/*.js
+bootsrap-icons/*.ts
